@@ -1,0 +1,27 @@
+h1 {
+  color: white;
+  font-family: helvatica;
+}
+
+.artistName {
+  font-size: 30px;
+}
+
+.songTitle {
+  font-size: 40px;
+}
+
+body{
+  font-size: 10px;
+  background-image: url(1.jpg);
+  background-size: cover;
+
+}
+
+p {
+  color: white;
+}
+
+img {
+  width:50px;
+}

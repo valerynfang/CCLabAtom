@@ -1,0 +1,18 @@
+p{
+  color: red;
+  font-family: "Helvetica";
+  background-color: blue;
+}
+
+img{
+  width: 100px
+}
+
+body{
+  background-color: pink;
+}
+
+a{
+  color: orange;
+  text-decoration: none;
+}

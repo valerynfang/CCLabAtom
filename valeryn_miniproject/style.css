@@ -1,0 +1,19 @@
+h1 {
+  color: #f5b490;
+}
+
+/* to identify class use . */
+.songTitle {
+  font-size: 30px;
+}
+
+.artistName {
+  font-size: 20px
+}
+
+/* to identify id use # */
+/* id is stronger. it will overwrite class */
+#destinysChild {
+  color: red;
+  font-size: 50px;
+}
