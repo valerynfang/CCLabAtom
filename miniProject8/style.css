@@ -1,3 +1,20 @@
 body {
-  background-color: white;
+  background-color: black;
 }
+
+img {
+  width: 10px;
+  height: 10px;
+}
+/* #canvasContainer {
+  padding: 0;
+  margin: auto;
+  display: block;
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+} */
