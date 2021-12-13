@@ -1,0 +1,15 @@
+canvasContainer {
+  margin: 0;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+}
+
+.back {
+  text-align: left;
+
+}
+
+.toNextStage {
+  text-align: left;
+}

@@ -1,0 +1,130 @@
+/* body {
+  background-image: url(pictures/background3.jpg);
+  background-size: cover;
+} */
+
+.index {
+  font-family: monospace;
+  font-size: 30px;
+  background: #80b2cf;
+}
+
+.stages {
+  color: black;
+  font-family: monospace;
+  font-size: 50px;
+  align-items: center;
+}
+
+a:visited {
+  color: black;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.Main {
+  border-color: lightblue;
+  border-width: 1px;
+  border-style: solid;
+  background: lightblue;
+  padding: 40px;
+  margin: 10px;
+  margin-bottom: 50px;
+  width: 90%;
+  height: 90%;
+  background-image: url(pictures/source.gif);
+  background-size: contain;
+  border-radius: 15px;
+}
+
+.section {
+  margin: auto;
+}
+
+.grid {
+  margin: 0 0 0 0;
+  padding: 0;
+  list-style: none; */
+  display: block;
+  text-align: center;
+   width: 100%;
+}
+
+.grid:after {
+  clear: both;
+}
+
+.grid:after, .box:before {
+  content: "";
+  display: table;
+}
+
+.grid li {
+  width: 360px;
+  height: 360px;
+  display: inline-block;
+  margin: 40px;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 10px;
+
+}
+
+.contact {
+  background-image: url(pictures/contact2.gif);
+  background-size: contain;
+}
+
+.game {
+  background-image: url(pictures/game.gif);
+  background-size: contain;
+}
+
+.whatItIs {
+  background-image: url(pictures/questionMark.gif);
+  background-size: contain;
+  background-color: #517082;
+}
+
+.gamePage {
+  background-image: url(pictures/background3.gif);
+  background-size: contain;
+}
+
+.contacts {
+  border-color: white;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 3px;
+  width: 30%;
+  padding: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-family: monospace;
+  display: inline;
+}
+
+.whatIsDepression {
+  padding: 40px;
+  margin: 10px;
+  margin-bottom: 50px;
+  width: 70%;
+  height: 90%;
+  font-size: 20px;
+
+  font-family: monospace;
+}
+
+img{
+  width: 30%;
+}
